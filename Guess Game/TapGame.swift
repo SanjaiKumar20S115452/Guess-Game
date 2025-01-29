@@ -64,7 +64,7 @@ struct TapGame: View {
                     if currentPickIndex == targetIndex {
                         score += 1
                         alertTitle = "Success!"
-                        alertMessage = "You got the correct answer!"
+                        alertMessage = "You got the correct answer!!"
                         showAlert = true
                     }else {
                         alertTitle = "Incorrect!"
