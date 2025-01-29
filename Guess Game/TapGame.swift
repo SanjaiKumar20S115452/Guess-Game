@@ -82,7 +82,7 @@ struct TapGame: View {
         })
         .alert(alertTitle, isPresented: $showAlert) {
             Button {
-                
+                showAlert = false
             } label: {
                 Text("OK")
             }
